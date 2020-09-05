@@ -11,6 +11,7 @@
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
+When initially analyzing the outcomes based on goals, the percentages were coming out weird. I had to change the boundaries of the "Goals" in the formula to incorporate ">=" as opposed to ">".
 
 ## Results
 
