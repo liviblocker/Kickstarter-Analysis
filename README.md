@@ -28,8 +28,12 @@ As the funding goals get higher the percentage of successful campaigns decrease 
 Because there were no canceled projects in this data set, the percentage of failed campaigns inversely reflects the successful campaigns.
 
 ### Challenges and Difficulties Encountered
-The biggest challenge in analyzing the data was thinking through the COUNTIFS function in Excel. The number of successful, failed, and canceled campaigns wasn't graphing properly, and it took me a while to realize that the way I had written the goal range part of the function didn't include an "equal to" part of the "greater/less than" signs. e.g. I had to change =COUNTIFS(Kickstarter!$D$2:$D$4115, ">1000", Kickstarter!$D$2:$D$4115, "<4999")
+The biggest challenge in analyzing the data was thinking through the COUNTIFS function in Excel. The number of successful, failed, and canceled campaigns wasn't graphing properly, and it took me a while to realize that the way I had written the goal range part of the function didn't include an "equal to" part of the "greater/less than" signs. e.g. I had to change 
+
+=COUNTIFS(Kickstarter!$D$2:$D$4115, ">1000", Kickstarter!$D$2:$D$4115, "<4999")
+
 to
+
 =COUNTIFS(Kickstarter!$D$2:$D$4115, ">=1000", Kickstarter!$D$2:$D$4115, "<=4999")
 
 Once that had been figured out, the data came together.
