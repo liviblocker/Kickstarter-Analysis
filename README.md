@@ -12,7 +12,7 @@ In the analysis of outcomes based on launch date, we looked at 1369 campaigns fo
 
 Of the 1369 theatre campaigns, 839 (61%) were successful, 493 (36%) failed, and only 37 (3%) were canceled. In general, most of the campaigns were launched in May and June. 111 successful campaigns were launched in May, more than any other month. While May was also the month of the most failed campaigns, there is less variation in the number of failed campaigns from month to month. That pattern can be seen in the graph below.
 
-![Launch_Date_Chart](path/to/Launch_Date_Chart.png)
+![Launch_Date_Chart](path/to/Kickstarter-Analysis/Launch_Date_Chart.png)
 
 Whether a campaign was canceled or not does not appear to be correlated with the date of the launch.
 
