@@ -3,13 +3,16 @@
 ## Overview of Project
 
 ### Purpose
-Louise’s play <i>Fever<i/> came close to its fundraising goal in a short amount of time. Louise The purpose of this project is to compare how different Kickstarter campaigns
-
- Now, she wants to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset that you’ve already combed through, you’ll visualize campaign outcomes based on their launch dates and their funding goals. You’ll then submit a written report based on your analysis and the visualizations you create.
+Louise’s play <i>Fever</i> came close to its fundraising goal in a short amount of time. The purpose of this project is to compare how different Kickstarter campaigns fared in relation to their launch dates and their funding goals. By looking at the campaign launch dates of 1369 theatre projects and the campaign funding goals of 1047 plays, we were able to determine the optimum months to launch a campaign and the ideal funding goal.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+In this analysis, we looked at 1369 campaigns for theatre projects, including plays, musicals, and spaces. Of the 1369 theatre campaigns, 839 (61%) were successful, 493 (36%) failed, and only 37 (3%) were canceled.
+
+In general, most of the campaigns were launched in May and June. 111 successful campaigns were launched in May, more than any other month. While May was also the launch date of the most failed campaigns, there was less variation in the number of failed campaigns from month to month. That pattern can be seen in the graph below.
+
+[image_name](path/to/image_name.png)
 
 ### Analysis of Outcomes Based on Goals
 
