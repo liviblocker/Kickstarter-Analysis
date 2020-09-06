@@ -21,7 +21,7 @@ In this analysis, we looked at 1047 successful, failed, and canceled campaigns f
 
 The chart below shows the percentage of successful, failed, and canceled projects at each funding goal range.
 
-![Outcomes_vs_Goals](path/to/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](https://github.com/liviblocker/Kickstarter-Analysis/blob/master/Outcomes_vs_Goals.png)
 
 As the funding goals get higher the percentage of successful campaigns decrease until around the $30000 mark. Between $30000 - $44999 the percentage of successful campaigns begin to increase again, with 67% of campaigns with funding goals between $35000 and $44999 being successful.
 
