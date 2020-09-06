@@ -28,22 +28,30 @@ As the funding goals get higher the percentage of successful campaigns decrease 
 Because there were no canceled projects in this data set, the percentage of failed campaigns inversely reflects the successful campaigns.
 
 ### Challenges and Difficulties Encountered
-Looking at the outcomes based on launch date was difficult to come to any conclusions, because we only had raw numbers. Without percentages it's difficult to determine whether the higher rates of successful campaigns in May is due to the overal higher rate of campaigns launched that month or if there is a correlation between the the launch date and the success of a campaign.
+The biggest challenge in analyzing the data was thinking through the COUNTIFS function in Excel. The number of successful, failed, and canceled campaigns wasn't graphing properly, and it took me a while to realize that the way I had written the goal range part of the function didn't include an "equal to" part of the "greater/less than" signs. e.g. I had to change =COUNTIFS(Kickstarter!$D$2:$D$4115, ">1000", Kickstarter!$D$2:$D$4115, "<4999")
+to
+=COUNTIFS(Kickstarter!$D$2:$D$4115, ">=1000", Kickstarter!$D$2:$D$4115, "<=4999")
 
-This is further exemplified by the outcomes based on goals analysis.Most of the successful campaigns fell between the funding goals of $1000-$4999 with 388 of the total 694 successful campaigns in that range. While most of the successful campaigns fell between the funding goals of $1000-$4999, that is also the range of funding goals for most of the projects, overall. As such, there actually higher percentage of successful campaigns with the funding goal less than $1000. That could not have been determined just looking at the numbers.
+Once that had been figured out, the data came together.
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-  In general, campaigns for theatre projects are successful, so Louise has the kind of project that does well on Kickstarter. The general success of her type of campaign could - in part - account for the quick success of her campaign. Additionally, most successful campagins are launched in May, so I'd recommend that she launch any future campaigns in May.
+<b>- What are two conclusions you can draw about the Outcomes based on Launch Date?<b/>
 
-- What can you conclude about the Outcomes based on Goals?
-  Most of the successful campaigns have funding goals less than $5000 and even more successful campaigns have funding goals less than $1000. Most of the successful campaigns for larger budget productions have funding goals between $35000 and $45000. Depending on the production, a funding goal of either less than $5000 or between $35000 - $45000 have a good chance of being funded.
+In general, campaigns for theatre projects are successful, so Louise has the kind of project that does well on Kickstarter. The general success of her type of campaign could - in part - account for the quick success of her campaign. Additionally, most successful campagins are launched in May, so I'd recommend that she launch any future campaigns in May.
 
-- What are some limitations of this dataset?
+<b>- What can you conclude about the Outcomes based on Goals?<b/>
+
+Most of the successful campaigns have funding goals less than $5000 and even more successful campaigns have funding goals less than $1000. Most of the successful campaigns for larger budget productions have funding goals between $35000 and $45000. Depending on the production, a funding goal of either less than $5000 or between $35000 - $45000 have a good chance of being funded.
+
+<b>- What are some limitations of this dataset?<b/>
+
 Looking at the outcomes based on launch date was difficult to come to firm conclusions, because we only had raw numbers. Without percentages it's difficult to determine whether the higher rates of successful campaigns in May is due to the overal higher rate of campaigns launched that month or if there is a correlation between the the launch date and the success of a campaign.
 
 This is further exemplified by the outcomes based on goals analysis. Most of the successful campaigns fell between the funding goals of $1000-$4999 with 388 of the total 694 successful campaigns in that range. While most of the successful campaigns fell between the funding goals of $1000-$4999, that is also the range of funding goals for most of the projects, overall. As such, there is actually a higher percentage of successful campaigns with the funding goal less than $1000. That could not have been determined just looking at the numbers.
 
-- What are some other possible tables and/or graphs that we could create?
-There is a lot of potential of 
+<b>- What are some other possible tables and/or graphs that we could create?<b/>
+
+Based on the limitation stated above, I would like to extend the Outcomes Based on Launch Date table to include percentages, but there is a lot of potential in other tables and graphs that we could create.
+
+In order to best support Louise, ideally we'd have data for her play Fever to better compare the success of her campaign to others like hers. I'd like to analyze the outcomes based on the length of time to reach the funding goal and I'd look at the outcomes based on the difference between different types of theatre projects: musicals, plays, and spaces.
