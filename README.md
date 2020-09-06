@@ -33,12 +33,17 @@ Looking at the outcomes based on launch date was difficult to come to any conclu
 This is further exemplified by the outcomes based on goals analysis.Most of the successful campaigns fell between the funding goals of $1000-$4999 with 388 of the total 694 successful campaigns in that range. While most of the successful campaigns fell between the funding goals of $1000-$4999, that is also the range of funding goals for most of the projects, overall. As such, there actually higher percentage of successful campaigns with the funding goal less than $1000. That could not have been determined just looking at the numbers.
 
 ## Results
-Based on these
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+  In general, campaigns for theatre projects are successful, so Louise has the kind of project that does well on Kickstarter. The general success of her type of campaign could - in part - account for the quick success of her campaign. Additionally, most successful campagins are launched in May, so I'd recommend that she launch any future campaigns in May.
 
 - What can you conclude about the Outcomes based on Goals?
+  Most of the successful campaigns have funding goals less than $5000 and even more successful campaigns have funding goals less than $1000. Most of the successful campaigns for larger budget productions have funding goals between $35000 and $45000. Depending on the production, a funding goal of either less than $5000 or between $35000 - $45000 have a good chance of being funded.
 
 - What are some limitations of this dataset?
+Looking at the outcomes based on launch date was difficult to come to firm conclusions, because we only had raw numbers. Without percentages it's difficult to determine whether the higher rates of successful campaigns in May is due to the overal higher rate of campaigns launched that month or if there is a correlation between the the launch date and the success of a campaign.
+
+This is further exemplified by the outcomes based on goals analysis. Most of the successful campaigns fell between the funding goals of $1000-$4999 with 388 of the total 694 successful campaigns in that range. While most of the successful campaigns fell between the funding goals of $1000-$4999, that is also the range of funding goals for most of the projects, overall. As such, there is actually a higher percentage of successful campaigns with the funding goal less than $1000. That could not have been determined just looking at the numbers.
 
 - What are some other possible tables and/or graphs that we could create?
+There is a lot of potential of 
