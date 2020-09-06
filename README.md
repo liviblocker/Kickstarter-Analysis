@@ -5,7 +5,7 @@
 ### Purpose
 Louise’s play <i>Fever</i> came close to its fundraising goal in a short amount of time. The purpose of this project is to compare how different Kickstarter campaigns fared in relation to their launch dates and their funding goals. By looking at the campaign launch dates of 1369 theatre projects and the campaign funding goals of 1047 plays, we were able to determine the optimum months to launch a campaign and the ideal funding goal.
 
-Click [here](Kickstarter-Analysis/KickstarterChallenge.xlsx) to see the full analysis.
+Click [here](https://github.com/liviblocker/Kickstarter-Analysis/blob/master/KickstarterChallenge.xlsx) to see the full analysis.
 
 ## Analysis and Challenges
 
