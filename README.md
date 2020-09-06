@@ -12,7 +12,7 @@ In this analysis, we looked at 1369 campaigns for theatre projects, including pl
 
 In general, most of the campaigns were launched in May and June. 111 successful campaigns were launched in May, more than any other month. While May was also the launch date of the most failed campaigns, there was less variation in the number of failed campaigns from month to month. That pattern can be seen in the graph below.
 
-[image_name](path/to/image_name.png)
+[Launch Date Chart](path/to/Launch Date Chart.png)
 
 ### Analysis of Outcomes Based on Goals
 
